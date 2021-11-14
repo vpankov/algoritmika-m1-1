@@ -6,8 +6,104 @@
 }
 
 section {
+    max-width: 1440px;
     margin:auto;
+    
+    padding-left: 70px;
 }
+
+.watch-cinema {
+    padding-top:22px;
+}
+
+.container {
+    
+}
+
+.logotip {
+padding-bottom: 97px;
+}
+
+.watch-cinema-info {
+display: flex;
+}
+
+.info-text {
+    display: flex;
+    padding-right: 25px;
+}
+
+.info-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.main-content {
+display: flex;
+}
+
+.main-title {
+width: 50%;
+padding-right: 140px;
+}
+
+.main-title h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-title p {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.main-image {
+    width: 50%;
+}
+
+.phrase {
+background-color: #1E4681;
+width: 483px;
+
+box-sizing: border-box;
+margin-top: 67px;
+margin-left: 287px;
+}
+
+.phrase-text {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 19px 27px 5px 26px;
+}
+
+.phrase-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+
+
+
+
 
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
