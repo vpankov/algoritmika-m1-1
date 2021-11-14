@@ -103,7 +103,7 @@ section {
 }
 
 .format-title {
-padding-bottom: 89px
+    padding-bottom: 89px
 }
 
 .format-title h1 {
@@ -153,12 +153,32 @@ padding-bottom: 89px
     margin-top: 10px;
 }
 
+.learn-title {
 
+}
 
+.learn-title h1 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    padding-top:179px;
+}
 
+.learn-info {
+   width: 44%;
+   
+}
 
+.learn-list {
+    padding-left: 25px;
+}
 
-
+.learn-list li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
 
 
 
