@@ -8,8 +8,7 @@
 section {
     max-width: 1440px;
     margin:auto;
-    
-    padding-left: 70px;
+    padding-left: 122px;
 }
 
 .watch-cinema {
@@ -21,11 +20,11 @@ section {
 }
 
 .logotip {
-padding-bottom: 97px;
+    padding-bottom: 97px;
 }
 
 .watch-cinema-info {
-display: flex;
+    display: flex;
 }
 
 .info-text {
@@ -41,12 +40,12 @@ display: flex;
 }
 
 .main-content {
-display: flex;
+    display: flex;
 }
 
 .main-title {
-width: 50%;
-padding-right: 140px;
+    width: 50%;
+    padding-right: 140px;
 }
 
 .main-title h1 {
@@ -70,12 +69,11 @@ padding-right: 140px;
 }
 
 .phrase {
-background-color: #1E4681;
-width: 483px;
-
-box-sizing: border-box;
-margin-top: 67px;
-margin-left: 287px;
+    background-color: #1E4681;
+    width: 483px;
+    box-sizing: border-box;
+    margin-top: 67px;
+    margin-left: 287px;
 }
 
 .phrase-text {
@@ -99,6 +97,83 @@ margin-left: 287px;
     padding-bottom: 5px;
     margin: 0;
 }
+
+.format {
+
+}
+
+.format-title {
+padding-bottom: 89px
+}
+
+.format-title h1 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+.format-content{
+    padding-right: 224px;
+}
+
+.format-info {
+    display: flex;
+    width: 90%;
+}
+
+.format-container1 {
+  width: 20%;
+    padding-right: 122px;
+}
+
+.format-container2 {
+    width: 25%;
+    padding-right: 110px;
+}
+
+.format-container3 {
+    width: 30%;
+}
+
+.format-title-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1E4681;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.format-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
