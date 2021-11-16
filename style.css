@@ -4,7 +4,12 @@
     font-family: "Roboto", sans-serif;
     color: black;
 }
-
+h1{
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
 section {
     max-width: 1440px;
     margin:auto;
@@ -13,10 +18,6 @@ section {
 
 .watch-cinema {
     padding-top:22px;
-}
-
-.container {
-    
 }
 
 .logotip {
@@ -98,10 +99,6 @@ section {
     margin: 0;
 }
 
-.format {
-
-}
-
 .format-title {
     padding-bottom: 89px
 }
@@ -152,11 +149,6 @@ section {
     font-size: 18px;
     margin-top: 10px;
 }
-
-.learn-title {
-
-}
-
 .learn-title h1 {
     font-family: "Roboto Slab";
     font-style: normal;
@@ -173,19 +165,52 @@ section {
 .learn-list {
     padding-left: 25px;
 }
-
 .learn-list li {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
 }
 
-
-
-
-
-
-
+.passed {
+box-sizing: border-box;
+background-color: #EFEFEF;
+height: 780px;
+}
+.author{
+    display: flex;
+    justify-content: flex-start;
+}
+.rewiew{
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: white;
+    width: 791px;
+    height: 451px;
+    padding: 20px 46px 40px 45px;
+    margin-top: 64px;
+    /* padding-left: 126px; */
+}
+.rewiew p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.passed h1{
+    padding-top: 81px;
+    margin-bottom: 20px;
+}
+.name-contact p{
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 30px;
+}
+.name-contact{
+    padding-left: 27px;
+    padding-top: 23px;
+}
+.picture-author{
+    padding-top: 11px;
+    margin-left: -19px;
+}
 
 
 
