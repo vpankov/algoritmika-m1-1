@@ -19,6 +19,15 @@ section {
     
 }
 
+h1 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    
+}
+
 .logotip {
     padding-bottom: 97px;
 }
@@ -180,15 +189,74 @@ section {
     font-size: 24px;
 }
 
+.course-program {
+    margin: 0;
+    padding-top: 240px;
+    padding-bottom: 95px;
+}
 
+.section__programm {
+    max-width: 1440px;
+    margin:auto;
+    padding-left: 84px;
+}
 
-
-
-
-
-
-
-
+    .programm__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 41px;
+        max-width: 399px;
+        margin-right: 37px;
+        
+        
+    }
+    
+    .card__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 130%;
+        margin: 0;
+        padding-top:11px;
+        padding-bottom: 32px;
+        padding-left: 20px;
+    }
+    
+    .card__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 130%;
+        margin: 0;
+        padding-bottom: 23px;
+        padding-left: 19px;
+    }
+    
+    .card__title__seminar{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 97%;
+        margin: 0;
+        padding-top: 16px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        
+    }
+    .card__text__seminar {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 130%;
+        margin: 0;
+        padding-left: 19px;
+        padding-bottom: 23px;
+    }
 
 
 
