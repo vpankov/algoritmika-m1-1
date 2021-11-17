@@ -4,7 +4,12 @@
     font-family: "Roboto", sans-serif;
     color: black;
 }
-
+h1{
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
 section {
     max-width: 1440px;
     margin:auto;
@@ -13,10 +18,6 @@ section {
 
 .watch-cinema {
     padding-top:22px;
-}
-
-.container {
-    
 }
 
 h1 {
@@ -107,10 +108,6 @@ h1 {
     margin: 0;
 }
 
-.format {
-
-}
-
 .format-title {
     padding-bottom: 89px
 }
@@ -161,11 +158,6 @@ h1 {
     font-size: 18px;
     margin-top: 10px;
 }
-
-.learn-title {
-
-}
-
 .learn-title h1 {
     font-family: "Roboto Slab";
     font-style: normal;
@@ -182,7 +174,6 @@ h1 {
 .learn-list {
     padding-left: 25px;
 }
-
 .learn-list li {
     font-style: normal;
     font-weight: normal;
@@ -261,6 +252,96 @@ h1 {
         padding-left: 19px;
         padding-bottom: 23px;
     }
+.passed {
+box-sizing: border-box;
+background-color: #EFEFEF;
+height: 780px;
+}
+.author{
+    display: flex;
+    justify-content: flex-start;
+}
+.rewiew{
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: white;
+    width: 791px;
+    height: 451px;
+    padding: 20px 46px 40px 45px;
+    margin-top: 64px;
+    /* padding-left: 126px; */
+}
+.rewiew p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.passed h1{
+    padding-top: 81px;
+    margin-bottom: 20px;
+}
+.name-contact p{
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 30px;
+}
+.name-contact{
+    padding-left: 27px;
+    padding-top: 23px;
+}
+.picture-author{
+    padding-top: 11px;
+    margin-left: -19px;
+}
+.start-course{
+    box-sizing: border-box;
+    background-color: #9DC9C8;
+    height: 780px;
+    padding-left: 0;
+}
+.start-course h1{
+    margin: 0;
+}
+.start-course .container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 175px 410px 185px 122px;
+}
+
+.start-course .price-number{
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.start-course .subtitle-one {
+    font-size: 25px;
+    margin-top: 52px;
+    margin-bottom: 0px;
+}
+.start-course .subtitle-two {
+    font-size: 25px;
+    margin-top: 57px;
+    margin-bottom: 0px;
+}
+.start-course .pdesc{
+    font-size: 18px;
+    margin-top: 14px;
+    line-height: 18px;
+}
+.start-course .description{
+    display: flex;
+    justify-content: flex-start;
+}
+.start-course .description-one{
+    box-sizing: border-box;
+    width: 294px;
+    margin-right: 70px;
+}
+.start-course .description-two{
+    box-sizing: border-box;
+    width: 294px;
+}
+
+
 
 
 
