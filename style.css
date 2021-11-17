@@ -259,11 +259,55 @@ height: 780px;
     box-sizing: border-box;
     width: 294px;
 }
-
-
-
-
-
+.footer{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    height: 390px;
+}
+.footer .container{
+    padding: 50px 146px 23px 0px;
+}
+.footer .black-block{
+    /* display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: flex-end; */ */
+}
+.footer .block-contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .icon-contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .icon{
+    margin-right: 20px;
+    margin-top: 27px;
+}
+.footer .mini-logo{
+padding-top: 116px;
+font-size: 18px;
+}
+.footer .right-side{
+    font-size: 25px;
+    padding-right: 32px;
+    padding-top: 10px;
+}
+.footer .phone-number{
+    display: flex;
+}
+.footer .e-mail{
+    display: flex;
+    padding-top: 8px;
+}
+.footer .icon-phone {
+    margin-right: 20px;
+}
+.footer .icon-mail{
+    margin-right: 20px;
+}
 
 
 
