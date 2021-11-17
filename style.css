@@ -211,7 +211,54 @@ height: 780px;
     padding-top: 11px;
     margin-left: -19px;
 }
+.start-course{
+    box-sizing: border-box;
+    background-color: #9DC9C8;
+    height: 780px;
+    padding-left: 0;
+}
+.start-course h1{
+    margin: 0;
+}
+.start-course .container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 175px 410px 185px 122px;
+}
 
+.start-course .price-number{
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.start-course .subtitle-one {
+    font-size: 25px;
+    margin-top: 52px;
+    margin-bottom: 0px;
+}
+.start-course .subtitle-two {
+    font-size: 25px;
+    margin-top: 57px;
+    margin-bottom: 0px;
+}
+.start-course .pdesc{
+    font-size: 18px;
+    margin-top: 14px;
+    line-height: 18px;
+}
+.start-course .description{
+    display: flex;
+    justify-content: flex-start;
+}
+.start-course .description-one{
+    box-sizing: border-box;
+    width: 294px;
+    margin-right: 70px;
+}
+.start-course .description-two{
+    box-sizing: border-box;
+    width: 294px;
+}
 
 
 
