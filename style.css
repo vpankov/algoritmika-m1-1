@@ -212,8 +212,12 @@ h1 {
         margin-bottom: 41px;
         max-width: 399px;
         margin-right: 37px;
-        
-        
+    }
+    
+    .card:hover {
+        box-shadow: 10px 10px 20px rgba(25, 22, 235, 0.25);
+        border: 3px solid rgb(70, 21, 187);
+        cursor: pointer;
     }
     
     .card__title {
