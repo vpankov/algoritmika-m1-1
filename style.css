@@ -252,15 +252,18 @@ h1 {
         padding-left: 19px;
         padding-bottom: 23px;
     }
+
 .passed {
 box-sizing: border-box;
 background-color: #EFEFEF;
 height: 780px;
 }
+
 .author{
     display: flex;
     justify-content: flex-start;
 }
+
 .rewiew{
     box-sizing: border-box;
     border-radius: 30px;
@@ -271,19 +274,23 @@ height: 780px;
     margin-top: 64px;
     /* padding-left: 126px; */
 }
+
 .rewiew p{
     font-size: 20px;
     line-height: 30px;
 }
+
 .passed h1{
     padding-top: 81px;
     margin-bottom: 20px;
 }
+
 .name-contact p{
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 30px;
 }
+
 .name-contact{
     padding-left: 27px;
     padding-top: 23px;
@@ -292,15 +299,18 @@ height: 780px;
     padding-top: 11px;
     margin-left: -19px;
 }
+
 .start-course{
     box-sizing: border-box;
     background-color: #9DC9C8;
     height: 780px;
     padding-left: 0;
 }
+
 .start-course h1{
     margin: 0;
 }
+
 .start-course .container{
     box-sizing: border-box;
     margin: 0 auto;
@@ -312,80 +322,98 @@ height: 780px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .start-course .subtitle-one {
     font-size: 25px;
     margin-top: 52px;
     margin-bottom: 0px;
 }
+
 .start-course .subtitle-two {
     font-size: 25px;
     margin-top: 57px;
     margin-bottom: 0px;
 }
+
 .start-course .pdesc{
     font-size: 18px;
     margin-top: 14px;
     line-height: 18px;
 }
+
 .start-course .description{
     display: flex;
     justify-content: flex-start;
 }
+
 .start-course .description-one{
     box-sizing: border-box;
     width: 294px;
     margin-right: 70px;
 }
+
 .start-course .description-two{
     box-sizing: border-box;
     width: 294px;
 }
+
 .footer{
     background-color: black;
     color: white;
     box-sizing: border-box;
     height: 390px;
 }
+
 .footer .container{
     padding: 50px 146px 23px 0px;
 }
+
 .footer .black-block{
     /* display: flex;
     flex-direction: column;
     /* justify-content: flex-start;
-    align-items: flex-end; */ */
+    align-items: flex-end; */
 }
+
 .footer .block-contacts{
     display: flex;
     justify-content: space-between;
 }
+
 .footer .icon-contacts{
     display: flex;
     justify-content: space-between;
 }
+
 .footer .icon{
     margin-right: 20px;
     margin-top: 27px;
 }
+
 .footer .mini-logo{
 padding-top: 116px;
 font-size: 18px;
 }
+
 .footer .right-side{
     font-size: 25px;
     padding-right: 32px;
     padding-top: 10px;
 }
+
 .footer .phone-number{
     display: flex;
 }
+
 .footer .e-mail{
     display: flex;
     padding-top: 8px;
 }
+
 .footer .icon-phone {
     margin-right: 20px;
 }
+
 .footer .icon-mail{
     margin-right: 20px;
 }
