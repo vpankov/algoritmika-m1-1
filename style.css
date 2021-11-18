@@ -10,12 +10,11 @@ h1{
     font-weight: bold;
     font-size: 55px;
 }
-section {
+.container{
     max-width: 1440px;
     margin:auto;
     padding-left: 122px;
 }
-
 .watch-cinema {
     padding-top:22px;
 }
@@ -360,7 +359,7 @@ height: 780px;
 .footer{
     background-color: black;
     color: white;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     height: 390px;
 }
 
@@ -416,6 +415,72 @@ font-size: 18px;
 
 .footer .icon-mail{
     margin-right: 20px;
+}
+.about-course .container{
+    box-sizing: border-box;
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding-top: 82px;
+    /* background-color: tomato; */
+    padding-left: 0px;
+    padding-right: 150px;
+}
+.about-course h1{
+font-family: "Roboto Slab";
+font-size: 55px;
+font-weight: 700;
+margin-top: 0;
+padding-bottom: 16px;
+margin-bottom: 21px;
+}
+.about-course .content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-top: 0px;
+}
+.about-course .text{
+    line-height: 150%;
+    padding-top: 10px;
+    padding-right: 160px;
+}
+.about-course .image-first{
+    width: 314px;
+    height: 315px;
+    margin-right: 28px;
+    padding-top: 35px;
+}
+.about-course .bottom{
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+}
+.about-course .menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.about-course .item{
+    margin-left: 112px;
+    width: 150px;
+    margin-right: 20px;
+}
+.about-course .image-second{
+    padding-top: 3px;
+    /* margin-left: -6px; */
+}
+.about-course h2{
+    padding-top: 7px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32,5px;
+}
+.about-course p {
+    margin-top: 0px;
+    padding-bottom: 12px;
 }
 
 
