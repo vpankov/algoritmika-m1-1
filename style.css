@@ -11,6 +11,7 @@ h1{
     font-size: 55px;
 }
 .container{
+    box-sizing: border-box;
     max-width: 1440px;
     margin:auto;
     padding-left: 122px;
@@ -29,7 +30,8 @@ h1 {
 }
 
 .logotip {
-    padding-bottom: 97px;
+    padding-bottom: 76px;
+    padding-top: 13px;
 }
 
 .watch-cinema-info {
@@ -55,6 +57,7 @@ h1 {
 .main-title {
     width: 50%;
     padding-right: 140px;
+    padding-top: 15px;
 }
 
 .main-title h1 {
@@ -162,7 +165,7 @@ h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
-    padding-top:179px;
+    padding-top:577px; это я так подвинула, чтобы все вниз съехало до моего блока
 }
 
 .learn-info {
@@ -179,19 +182,25 @@ h1 {
     font-size: 24px;
 }
 
-.course-program {
+.section-programm .course-program {
     margin: 0;
-    padding-top: 240px;
-    padding-bottom: 95px;
+    padding-top: 147px;
+    padding-bottom: 132px;
+    padding-left: 39px;
 }
 
-.section__programm {
+.section-programm {
     max-width: 1440px;
     margin:auto;
     padding-left: 84px;
 }
+.section-programm .container{
+    box-sizing: border-box;
+    padding-left: 41px;
+}
 
-    .programm__content {
+
+    .programm-content {
         display: flex;
         flex-wrap: wrap;
     }
@@ -199,7 +208,7 @@ h1 {
     .card {
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
-        margin-bottom: 41px;
+        margin-bottom: 38px;
         max-width: 399px;
         margin-right: 37px;
     }
@@ -258,45 +267,49 @@ background-color: #EFEFEF;
 height: 780px;
 }
 
-.author{
+.passed .author{
     display: flex;
     justify-content: flex-start;
 }
 
-.rewiew{
+.passed .rewiew{
     box-sizing: border-box;
     border-radius: 30px;
     background-color: white;
     width: 791px;
     height: 451px;
     padding: 20px 46px 40px 45px;
-    margin-top: 64px;
-    /* padding-left: 126px; */
+    margin-top: 71px;
 }
 
-.rewiew p{
+.passed .prewiew {
     font-size: 20px;
     line-height: 30px;
+    /* padding-top: 111px; */
+    padding-left: 5px;
 }
 
 .passed h1{
-    padding-top: 81px;
+    padding-top: 91px;
     margin-bottom: 20px;
 }
 
-.name-contact p{
+.passed .name-contact p{
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 30px;
 }
 
-.name-contact{
-    padding-left: 27px;
-    padding-top: 23px;
+.passed .name-contact{
+    padding-left: 33px;
+    padding-top: 19px;
 }
-.picture-author{
+.passed .picture-author{
     padding-top: 11px;
     margin-left: -19px;
+}
+.passed .picture-fb{
+    padding-bottom: 5px;
 }
 
 .start-course{
@@ -307,24 +320,24 @@ height: 780px;
 }
 
 .start-course h1{
-    margin: 0;
+    padding-top: 5px;
 }
 
 .start-course .container{
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 175px 410px 185px 122px;
+    padding: 129px 410px 185px 122px;
 }
 
 .start-course .price-number{
     font-size: 80px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin: 0;
 }
 
 .start-course .subtitle-one {
     font-size: 25px;
-    margin-top: 52px;
+    margin-top: 61px;
     margin-bottom: 0px;
 }
 
@@ -336,13 +349,14 @@ height: 780px;
 
 .start-course .pdesc{
     font-size: 18px;
-    margin-top: 14px;
+    margin-top: 13px;
     line-height: 18px;
 }
 
 .start-course .description{
     display: flex;
     justify-content: flex-start;
+    margin-top: 2px;
 }
 
 .start-course .description-one{
@@ -364,14 +378,7 @@ height: 780px;
 }
 
 .footer .container{
-    padding: 50px 146px 23px 0px;
-}
-
-.footer .black-block{
-    /* display: flex;
-    flex-direction: column;
-    /* justify-content: flex-start;
-    align-items: flex-end; */
+    padding: 50px 146px 23px 120px;
 }
 
 .footer .block-contacts{
@@ -388,16 +395,19 @@ height: 780px;
     margin-right: 20px;
     margin-top: 27px;
 }
+.footer .black-block{
+    box-sizing: border-box;
+}
 
 .footer .mini-logo{
-padding-top: 116px;
-font-size: 18px;
+    padding-top: 135px;
+    font-size: 18px;
 }
 
 .footer .right-side{
     font-size: 25px;
     padding-right: 32px;
-    padding-top: 10px;
+    padding-top: 9px;
 }
 
 .footer .phone-number{
@@ -410,11 +420,12 @@ font-size: 18px;
 }
 
 .footer .icon-phone {
-    margin-right: 20px;
+    margin-right: 21px;
 }
 
 .footer .icon-mail{
     margin-right: 20px;
+    padding-right: 2px;
 }
 .about-course .container{
     box-sizing: border-box;
