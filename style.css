@@ -4,19 +4,13 @@
     font-family: "Roboto", sans-serif;
     color: black;
 }
-h1{
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-}
+
+
 .container{
     max-width: 1440px;
-    margin:auto;
+    margin:0 auto;
     padding-left: 122px;
-}
-.watch-cinema {
-    padding-top:22px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -24,87 +18,107 @@ h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
-    line-height: 101.38%;
+}
+
+.watch__cinema {
+
+}
+
+.watch__cinema h1 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+}
+.watch__cinema_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 16px;
+}
+
+
+
+.logotip {
+    padding-top: 35px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+}
+
+.watch__cinema__info {
+    display: flex;
+}
+
+.info__text {
+    display: flex;
+    padding-right: 25px;
     
 }
 
-.logotip {
-    padding-bottom: 97px;
-}
-
-.watch-cinema-info {
-    display: flex;
-}
-
-.info-text {
-    display: flex;
-    padding-right: 25px;
-}
-
-.info-text p {
+.info__text p {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     padding-left: 8px;
 }
 
-.main-content {
+.main__content {
     display: flex;
 }
 
-.main-title {
-    width: 50%;
-    padding-right: 140px;
+.main__title {
+    width: 55%;
+    padding-top: 19px;
+    padding-right: 0px;
 }
 
-.main-title h1 {
-    font-family: 'Roboto Slab';
+.main__title h1 {
+    font-family: "Roboto Slab";
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 81px;
 }
 
-.main-title p {
-    
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-}
-
-.main-image {
-    width: 50%;
+.main__image {
+    width: 45%;
+    padding-left: 92px;
 }
 
 .phrase {
     background-color: #1E4681;
     width: 483px;
     box-sizing: border-box;
-    margin-top: 67px;
+    margin-top: 53px;
     margin-left: 287px;
 }
 
-.phrase-text {
-    font-family: 'Roboto Slab';
+.phrase__text {
+    font-family: "Roboto Slab";
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
-    color: #FFFFFF;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
     margin: 0px;
-    padding: 19px 27px 5px 26px;
+    padding: 20px 27px 5px 26px;
 }
 
-.phrase-name {
+.phrase__name {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     text-align: right;
-    color: #FFFFFF;
-    padding-top: 5px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
     padding-right: 18px;
-    padding-bottom: 5px;
-    margin: 0;
+    padding-bottom: 19px;
+    margin: 0px;
 }
 
 .format-title {
