@@ -201,42 +201,43 @@ h1 {
 }
 
 
-.format-title {
-    padding-bottom: 89px
+.format__title {
+    padding-top: 149px;
+    padding-bottom: 114px
 }
 
-.format-title h1 {
+.format__title h1 {
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
-.format-content{
+.format__content{
     padding-right: 224px;
 }
 
-.format-info {
+.format__info {
     display: flex;
     width: 90%;
 }
 
-.format-container1 {
-  width: 20%;
-    padding-right: 122px;
+.format__container1 {
+  width: 23%;
+    padding-right: 119px;
 }
 
-.format-container2 {
+.format__container2 {
+    width: 27%;
+    padding-right: 118px;
+}
+
+.format__container3 {
     width: 25%;
-    padding-right: 110px;
 }
 
-.format-container3 {
-    width: 30%;
-}
-
-.format-title-text {
+.format__title__text {
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
@@ -245,11 +246,13 @@ h1 {
     margin-bottom: 0px;
 }
 
-.format-text {
+.format__text {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    margin-top: 10px;
+    line-height: 23px;
+    margin: 0;
+    padding-top: 10px;
 }
 
 
