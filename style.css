@@ -257,29 +257,32 @@ h1 {
 
 
 
-.learn-title h1 {
+.learn__title h1 {
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
-    padding-top:179px;
+    padding-top: 209px;
+    margin: 0;
 }
 
-.learn-info {
-   width: 44%;
-   
+.learn__info {
+   width: 51%;
+    padding-top: 50px;
 }
 
-.learn-list {
-    padding-left: 25px;
+.learn__list {
+    padding-left: 17px;
+    margin: 0;
 }
-.learn-list li {
+.learn__list li {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
+    line-height: 36px;
 }
 
-.course-program {
+.course__program {
     margin: 0;
     padding-top: 240px;
     padding-bottom: 95px;
