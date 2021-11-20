@@ -20,11 +20,6 @@ h1 {
     font-weight: bold;
     font-size: 55px;
 }
-
-.watch__cinema {
-
-}
-
 .watch__cinema h1 {
     font-family: "Roboto Slab";
     font-style: normal;
@@ -546,6 +541,104 @@ height: 780px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
+
+.container{
+    padding-left: 35px;
+    width: 375px;
+}
+
+.watch__cinema h1 {
+    font-size: 37px;
+    line-height: 38px;
+    margin: 0;
+}
+.main__title{
+    padding: 0;
+    margin-right: 0;
+}
+.main__content{
+    display: block;
+}
+.watch__cinema_text {
+    font-size: 10px;
+    padding-top: 17px;
+    line-height: 15px;
+}
+
+.watch__cinema .logotip  {
+        padding-top: 28px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+    }
+    .logotip img{
+        width: 52px;
+    }
+    .watch__cinema .info__text img {
+        width: 10px;
+    }
+    .info__text{
+        padding-right: 10px;
+    }
+    .info__text p{
+        font-size: 10px;
+    }
+    .main__image img{
+        width: 141px;
+    }
+    .main__image{
+        padding-left: 165px;
+    }
+.phrase{
+    width: 225px;
+    margin: 32px 0px 0px 3px;
+}
+.phrase__text{
+    font-size: 11px;
+    line-height: 14px;
+    padding: 9px 12px 0px 12px;
+}
+.phrase__name{
+    font-size: 10px;
+    line-height: 13px;
+    padding: 5px 7px 11px 19px;
+
+}
+.about-course .container{
+    padding: 70px 0px 0px 36px;
+}
+.about-course h1{
+    font-size: 26px;
+}
+.about-course .content{
+    display: block;
+    
+}
+.about-course .content .text{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+.about-course .image-first img{
+    width: 170px;
+    padding-top: 0px;
+    padding-left: 66px;
+}
+.about-course .image-first{
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.about-course .paragraph__one{
+padding-right: 9px;
+}
+.about-course .paragraph__two{
+    padding-top: 6px;
+    padding-right: 20px;
+    
+}
+.about-course .image-second img{
+    display: none;
+}
 
 
 }
