@@ -43,7 +43,7 @@ h1 {
 
 
 .logotip {
-    padding-top: 35px;
+    padding-top: 12px;
     padding-bottom: 75px;
     box-sizing: border-box;
 }
@@ -284,9 +284,8 @@ h1 {
 }
 
 .section-programm .course-program {
-    margin: 0;
-    padding-top: 147px;
-    padding-bottom: 132px;
+    margin-top: 222px;
+    margin-bottom: 120px;
     padding-left: 39px;
 }
 
@@ -298,6 +297,7 @@ h1 {
 .section-programm .container{
     box-sizing: border-box;
     padding-left: 41px;
+    padding-bottom: 85px;
 }
 
 
@@ -309,9 +309,10 @@ h1 {
     .card {
         box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
-        margin-bottom: 38px;
-        max-width: 399px;
+        margin-bottom: 42px;
+        width: 399px;
         margin-right: 37px;
+        height: 328px;
     }
     
     .card:hover {
@@ -379,20 +380,21 @@ height: 780px;
     background-color: white;
     width: 791px;
     height: 451px;
-    padding: 20px 46px 40px 45px;
-    margin-top: 71px;
+    padding: 12px 46px 40px 45px;
+    margin-top: 65px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
 }
 
 .passed .prewiew {
     font-size: 20px;
     line-height: 30px;
-    /* padding-top: 111px; */
-    padding-left: 5px;
+    padding-top: 8px;
+    padding-left: 3px;
 }
 
 .passed h1{
-    padding-top: 91px;
-    margin-bottom: 20px;
+    margin-top: 8px;
 }
 
 .passed .name-contact p{
@@ -412,6 +414,9 @@ height: 780px;
 .passed .picture-fb{
     padding-bottom: 5px;
 }
+.passed .container{
+    padding-top: 73px;
+}
 
 .start-course{
     box-sizing: border-box;
@@ -425,20 +430,20 @@ height: 780px;
 }
 
 .start-course .container{
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 129px 410px 185px 122px;
+    /* margin: 0 auto; */
+    padding: 122px 410px 185px 122px;
 }
 
 .start-course .price-number{
     font-size: 80px;
     padding-bottom: 0px;
     margin: 0;
+    line-height: 85px;
 }
 
 .start-course .subtitle-one {
     font-size: 25px;
-    margin-top: 61px;
+    margin-top: 52px;
     margin-bottom: 0px;
 }
 
@@ -457,7 +462,7 @@ height: 780px;
 .start-course .description{
     display: flex;
     justify-content: flex-start;
-    margin-top: 2px;
+    margin-top: 14px;
 }
 
 .start-course .description-one{
@@ -474,7 +479,6 @@ height: 780px;
 .footer{
     background-color: black;
     color: white;
-    /* box-sizing: border-box; */
     height: 390px;
 }
 
