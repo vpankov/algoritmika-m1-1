@@ -39,7 +39,7 @@ h1 {
 
 
 .logotip {
-    padding-top: 12px;
+    padding-top: 13px;
     padding-bottom: 75px;
     box-sizing: border-box;
 }
@@ -190,7 +190,7 @@ h1 {
 }
 .item p {
     margin: 0px;
-    padding-top: 2px;
+    padding-top: 4px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -280,8 +280,8 @@ h1 {
 }
 
 .section-programm .course-program {
-    margin-top: 222px;
-    margin-bottom: 120px;
+    margin-top: 217px;
+    margin-bottom: 121px;
     padding-left: 39px;
 }
 
@@ -323,9 +323,9 @@ h1 {
         font-size: 30px;
         line-height: 130%;
         margin: 0;
-        padding-top:11px;
+        padding-top: 10px;
         padding-bottom: 32px;
-        padding-left: 20px;
+        padding-left: 22px;
     }
     
     .card__text {
@@ -344,9 +344,9 @@ h1 {
         font-size: 30px;
         line-height: 97%;
         margin: 0;
-        padding-top: 16px;
-        padding-bottom: 5px;
-        padding-left: 20px;
+        padding-top: 17px;
+        padding-bottom: 7px;
+        padding-left: 21px;
         
     }
     .card__text__seminar {
@@ -385,7 +385,7 @@ height: 780px;
 .passed .prewiew {
     font-size: 20px;
     line-height: 30px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-left: 3px;
 }
 
@@ -400,12 +400,15 @@ height: 780px;
 }
 
 .passed .name-contact{
-    padding-left: 33px;
+    padding-left: 31px;
     padding-top: 19px;
 }
+.name-contact p {
+    margin-bottom: 24px;
+}
 .passed .picture-author{
-    padding-top: 11px;
-    margin-left: -19px;
+    padding-top: 13px;
+    margin-left: -16px;
 }
 .passed .picture-fb{
     padding-bottom: 5px;
@@ -427,7 +430,7 @@ height: 780px;
 
 .start-course .container{
     /* margin: 0 auto; */
-    padding: 122px 410px 185px 122px;
+    padding: 119px 410px 185px 122px;
 }
 
 .start-course .price-number{
@@ -479,7 +482,7 @@ height: 780px;
 }
 
 .footer .container{
-    padding: 50px 146px 23px 120px;
+    padding: 48px 146px 23px 120px;
 }
 
 .footer .block-contacts{
@@ -501,14 +504,14 @@ height: 780px;
 }
 
 .footer .mini-logo{
-    padding-top: 135px;
+    padding-top: 138px;
     font-size: 18px;
 }
 
 .footer .right-side{
     font-size: 25px;
     padding-right: 32px;
-    padding-top: 9px;
+    padding-top: 7px;
 }
 
 .footer .phone-number{
@@ -517,11 +520,11 @@ height: 780px;
 
 .footer .e-mail{
     display: flex;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .footer .icon-phone {
-    margin-right: 21px;
+    margin-right: 22px;
 }
 
 .footer .icon-mail{
@@ -546,7 +549,7 @@ height: 780px;
     }
 
     .logotip {
-        padding-top: 16px;
+        padding-top: 14px;
         padding-bottom: 43px;
     }
 
@@ -932,11 +935,12 @@ height: 780px;
             .passed .name-contact p{
                 font-size: 17px;
                 line-height: 17px;
+                margin-bottom: 18px;
             }
             
             .passed .name-contact{
-                padding-left: 17px;
-                padding-top: 9px;
+                padding-left: 18px;
+                padding-top: 10px;
             }
 
             .passed .picture-author{
@@ -1040,7 +1044,7 @@ line-height: 10px;
 }
 
 .footer .container{
-    padding: 27px 146px 23px 71px;
+    padding: 27px 107px 23px 71px;
 }
 
 .footer .block-contacts{
@@ -1076,9 +1080,9 @@ line-height: 10px;
 }
 
 .footer .right-side{
-    font-size: 25px;
-    padding-right: 32px;
-    padding-top: 9px;
+    font-size: 14px;
+    padding-right: 0px;
+    padding-top: 5px;
 }
 
 .footer .phone-number{
@@ -1087,24 +1091,26 @@ line-height: 10px;
 
 .footer .e-mail{
     display: flex;
-    padding-top: 8px;
+    padding-top: 6px;
 }
 
 .footer .icon-phone {
-    margin-right: 21px;
+    margin-right: 13px;
 }
 
 .icon-phone img {
     width: 15px;
+    padding-left: 10px;
 }
 
 .footer .icon-mail{
-    margin-right: 20px;
-    padding-right: 2px;
+    margin-right: 10px;
+    padding-left: 0px;
 }
 
 .icon-mail img {
     width: 15px;
+    padding-left: 10px;
 }
 
 }
