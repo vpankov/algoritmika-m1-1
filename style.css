@@ -627,6 +627,7 @@ height: 780px;
 .about-course .image-first{
     padding-top: 15px;
     padding-left: 0px;
+    margin-bottom: -109px;
 }
 .about-course .paragraph__one{
 padding-right: 9px;
@@ -636,9 +637,150 @@ padding-right: 9px;
     padding-right: 20px;
     
 }
-.about-course .image-second img{
+.about-course .image-second {
     display: none;
+    position: relative;
+}
+.about-course .bottom{
+    width: 70%;
+    margin: 0px 0px 0px 0px;
 }
 
+.about-course .menu{
+    margin: 0px 0px 0px 0px;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+} 
+.about-course h2{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 2px;
+}
+.about-course .menu p{
+    font-size: 10px;
+    line-height: 13px;
+    padding-bottom: 27px;
+    
+
+}
+.about-course .menu .item{
+    width: 82px;
+    padding-right: 36px;
+}
+.format__title h1{
+    font-size: 26px;
+}
+.format__title {
+    padding-top: 37px;
+    padding-bottom: 0px;
+}
+.format__info {
+    display: block;
+    width: 100%;
+}
+.format__title__text{
+    font-size: 12px;
+    line-height: 15px;
+}
+.format__text{
+    font-size: 10px;
+    line-height: 13px;
+    padding-top: 5px;
+}
+.format__container1 {
+    width: 150%;
+    padding-right: 0px;
+}
+.format__container2 {
+    width: 145%;
+    padding-right: 0px;
+    margin-top: 32px;
+}
+.format__container3 {
+    width: 150%;
+    padding-right: 0px;
+    margin-top: 32px;
+}
+.format__content{
+    margin-top: 30px;
+}
+.learn__title{
+    margin-top: 67px;
+}
+.learn__title h1{
+    font-size: 26px;
+    line-height: 26px;
+    padding: 10px 10px 0px 0px;
+}
+.learn__info{
+    width: 90%;
+    padding-top: 28px;
+}
+.learn__list{
+    padding: 0px 0px 0px 13px; 
+    /* list-style-position: inside; */
+}
+.learn__list li{
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: -4px;
+    /* list-style-position: inside; */
+}
+.learn__list ul{
+    /* list-style-position: inside; */
+}
+.section-programm .course-program {
+    font-size: 26px;
+    line-height: 26px;
+    padding: 10px 10px 0px 0px;
+    margin-top: 50px;
+    margin-bottom: 54px;
+}
+.section-programm .container{
+    margin-left: 32px;
+    padding-left: 22px;
+}
+.card{
+    box-sizing: content-box;
+    width: 186px;
+    height: 152px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    margin-bottom: 25px;
+
+}
+.card__title{
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.card__text{
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 0px;
+    padding-left: 9px;
+}
+.card__title__seminar{
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+.card__text__seminar{
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 0px;
+    padding-left: 9px;
+}
+
+.card img{
+    width: 100%;
+}
+.programm-content{
+    padding-left: 61px;
+}
 
 }
