@@ -409,6 +409,9 @@ height: 780px;
 .passed .picture-fb{
     padding-bottom: 5px;
 }
+.passed .picture-fb img{
+    width: 32px;
+}
 .passed .container{
     padding-top: 73px;
 }
@@ -543,13 +546,13 @@ height: 780px;
 @media screen and (min-width: 320px) and (max-width: 991px) {
 
 .container{
-    padding-left: 35px;
+    padding-left: 27px;
     width: 375px;
 }
 
 .watch__cinema h1 {
     font-size: 37px;
-    line-height: 38px;
+    line-height: 39px;
     margin: 0;
 }
 .main__title{
@@ -561,7 +564,7 @@ height: 780px;
 }
 .watch__cinema_text {
     font-size: 10px;
-    padding-top: 17px;
+    padding-top: 16px;
     line-height: 15px;
 }
 
@@ -586,7 +589,7 @@ height: 780px;
         width: 141px;
     }
     .main__image{
-        padding-left: 165px;
+        padding-left: 167px;
     }
 .phrase{
     width: 225px;
@@ -604,7 +607,7 @@ height: 780px;
 
 }
 .about-course .container{
-    padding: 70px 0px 0px 36px;
+    padding: 70px 8px 0px 28px;
 }
 .about-course h1{
     font-size: 26px;
@@ -647,7 +650,7 @@ padding-right: 9px;
 }
 
 .about-course .menu{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -1px;
     justify-content: flex-start;
     flex-wrap: wrap; 
 } 
@@ -665,7 +668,7 @@ padding-right: 9px;
 }
 .about-course .menu .item{
     width: 82px;
-    padding-right: 36px;
+    padding-right: 37px;
 }
 .format__title h1{
     font-size: 26px;
@@ -692,7 +695,7 @@ padding-right: 9px;
     padding-right: 0px;
 }
 .format__container2 {
-    width: 145%;
+    width: 135%;
     padding-right: 0px;
     margin-top: 32px;
 }
@@ -700,9 +703,13 @@ padding-right: 9px;
     width: 150%;
     padding-right: 0px;
     margin-top: 32px;
+    padding-left: 1px;
 }
 .format__content{
     margin-top: 30px;
+}
+.section-learn .container{
+    padding-right: 5px;
 }
 .learn__title{
     margin-top: 67px;
@@ -737,8 +744,8 @@ padding-right: 9px;
     margin-bottom: 54px;
 }
 .section-programm .container{
-    margin-left: 32px;
-    padding-left: 22px;
+    margin-left: -57px;
+    padding-left: 0px;
 }
 .card{
     box-sizing: content-box;
@@ -747,6 +754,8 @@ padding-right: 9px;
     box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
     border-radius: 13px;
     margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 6px;
 
 }
 .card__title{
@@ -764,10 +773,10 @@ padding-right: 9px;
 }
 .card__title__seminar{
     font-size: 14px;
-    line-height: 16px;
-    padding-top: 1px;
+    line-height: 15px;
+    padding-top: 2px;
     padding-left: 10px;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
 }
 .card__text__seminar{
     font-size: 12px;
@@ -782,5 +791,160 @@ padding-right: 9px;
 .programm-content{
     padding-left: 61px;
 }
+.passed h1{
+    font-size: 26px;
+    line-height: 26px;
+    padding-top: 0px;
+    padding-right: 90px;
+}
+.passed{
+    width: 375px;
+    height: 423px;
+    margin-left: -8px;
+    margin-top: -71px;
+}
+.passed .container{
+    padding-left: 0px;
+    padding-top: 35px;
+    margin-left: 34px;
+    margin-top: 7px;
+}
+.passed .rewiew{
+    width: 308px;
+    height: 248px;
+    margin-top: 28px;
+    border-radius: 15px;
+    padding: 9px 23px 0px 22px;
+}
+.passed .prewiew{
+    font-size: 10px;
+    line-height: 15px;
+    padding: 0px 0px 0px 0px;
+}
+.passed .picture-author{
+    padding: 5px 0px 0px 12px;
+}
+.passed .picture-author img{
+    width: 93px;
+}
+.passed .name-contact p{
+    font-size: 14px;
+    line-height: 14px;
+}
+.passed .name-contact{
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.passed .pcture-fb img{
+    width: 15px;
+    height: 17px;
+}
+.passed .pcture-fb{
+    padding-top: 5px;
+}
 
+.start-course h1{
+    font-size: 26px;
+    line-height: 27px;
+    padding-right: 100px;
+}
+.start-course .subtitle-one {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 33px;
+    margin-bottom: 3px;
+}
+.start-course .subtitle-two {
+    font-size: 12px;
+    line-height: 12px;
+}
+.start-course .price-number{
+    font-size: 37px;
+    line-height: 37px;
+}
+.start-course .description{
+    margin-top: -22px;
+    padding-right: 20px;
+}
+.start-course .description-one{
+    width: auto;
+    padding-right: 0px;
+    margin-right: 31px;
+}
+.start-course .description-two{
+    width: auto;
+}
+.start-course .description-one .pdesc{
+    width: 138px;
+}
+.start-course .description-two .pdesc{
+    width: 140px;
+}
+.start-course .pdesc{
+    /* width: 138px; */
+    font-size: 10px;
+    line-height: 10px;
+    padding-right: 0px;
+    margin-top: 7px;
+}
+.start-course{
+    /* box-sizing: border-box; */
+    width: 375px;
+    height: 363px;
+    margin-left: -8px;
+    margin-top: -71px;
+}
+.start-course .container{
+    padding-left: 0px;
+    padding-top: 35px;
+    padding-right: 52px;
+    padding-bottom: 0px;
+    margin-left: 34px;
+    margin-top: 71px;
+}
+.footer{
+    height: 251px;
+    width: 375px;
+    margin-left: -8px;
+}
+.footer .container{
+    padding: 24px 0px 0px 38px;
+}
+.footer .block-contacts{
+    display: block;
+}
+.footer .logo img{
+    width: 53px;
+}
+.footer .icon-contacts{
+    justify-content: flex-start;
+}
+.footer .icon{
+    margin-right: 9px;
+    margin-top: 10px;
+}
+.footer .icon img {
+    width: 15px;
+}
+.footer .icon-phone img{
+    width: 12px;
+}
+.footer .icon-mail img{
+    width: 12px;
+}
+.footer .right-side{
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 37px;
+}
+.footer .icon-phone {
+    margin-right: 11px;
+}
+.footer .icon-mail {
+    margin-right: 9px;
+}
+.footer .mini-logo{
+    font-size: 10px;
+    padding-top: 53px;
+}
 }
