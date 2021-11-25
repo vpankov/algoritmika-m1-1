@@ -20,6 +20,10 @@ h1 {
     font-weight: bold;
     font-size: 55px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 29766716b7dd2019eb7f456b0dcea25da5365251
 .watch__cinema h1 {
     font-family: "Roboto Slab";
     font-style: normal;
@@ -38,7 +42,7 @@ h1 {
 
 
 .logotip {
-    padding-top: 12px;
+    padding-top: 13px;
     padding-bottom: 75px;
     box-sizing: border-box;
 }
@@ -189,7 +193,7 @@ h1 {
 }
 .item p {
     margin: 0px;
-    padding-top: 2px;
+    padding-top: 4px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -220,7 +224,7 @@ h1 {
 }
 
 .format__container1 {
-  width: 23%;
+    width: 23%;
     padding-right: 119px;
 }
 
@@ -279,8 +283,8 @@ h1 {
 }
 
 .section-programm .course-program {
-    margin-top: 222px;
-    margin-bottom: 120px;
+    margin-top: 217px;
+    margin-bottom: 121px;
     padding-left: 39px;
 }
 
@@ -322,9 +326,9 @@ h1 {
         font-size: 30px;
         line-height: 130%;
         margin: 0;
-        padding-top:11px;
+        padding-top: 10px;
         padding-bottom: 32px;
-        padding-left: 20px;
+        padding-left: 22px;
     }
     
     .card__text {
@@ -343,9 +347,9 @@ h1 {
         font-size: 30px;
         line-height: 97%;
         margin: 0;
-        padding-top: 16px;
-        padding-bottom: 5px;
-        padding-left: 20px;
+        padding-top: 17px;
+        padding-bottom: 7px;
+        padding-left: 21px;
         
     }
     .card__text__seminar {
@@ -375,7 +379,7 @@ height: 780px;
     background-color: white;
     width: 791px;
     height: 451px;
-    padding: 12px 46px 40px 45px;
+    padding: 8px 43px 40px 45px;
     margin-top: 65px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -384,7 +388,7 @@ height: 780px;
 .passed .prewiew {
     font-size: 20px;
     line-height: 30px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-left: 3px;
 }
 
@@ -399,12 +403,15 @@ height: 780px;
 }
 
 .passed .name-contact{
-    padding-left: 33px;
+    padding-left: 31px;
     padding-top: 19px;
 }
+.name-contact p {
+    margin-bottom: 24px;
+}
 .passed .picture-author{
-    padding-top: 11px;
-    margin-left: -19px;
+    padding-top: 13px;
+    margin-left: -16px;
 }
 .passed .picture-fb{
     padding-bottom: 5px;
@@ -429,7 +436,7 @@ height: 780px;
 
 .start-course .container{
     /* margin: 0 auto; */
-    padding: 122px 410px 185px 122px;
+    padding: 119px 410px 185px 122px;
 }
 
 .start-course .price-number{
@@ -481,7 +488,7 @@ height: 780px;
 }
 
 .footer .container{
-    padding: 50px 146px 23px 120px;
+    padding: 48px 146px 23px 120px;
 }
 
 .footer .block-contacts{
@@ -503,14 +510,14 @@ height: 780px;
 }
 
 .footer .mini-logo{
-    padding-top: 135px;
+    padding-top: 138px;
     font-size: 18px;
 }
 
 .footer .right-side{
     font-size: 25px;
     padding-right: 32px;
-    padding-top: 9px;
+    padding-top: 7px;
 }
 
 .footer .phone-number{
@@ -519,11 +526,11 @@ height: 780px;
 
 .footer .e-mail{
     display: flex;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .footer .icon-phone {
-    margin-right: 21px;
+    margin-right: 22px;
 }
 
 .footer .icon-mail{
@@ -538,8 +545,579 @@ height: 780px;
 
 
 
-
 @media screen and (min-width: 992px) and (max-width: 1279px) {
+ 
+    .container{
+        box-sizing: border-box;
+        width: 834px;
+        margin:0 auto;
+        padding-left: 70px;
+    }
+
+    .logotip {
+        padding-top: 14px;
+        padding-bottom: 43px;
+    }
+
+    .logotip img {
+        width: 64px;
+        height: 38px;
+    }
+
+    .info__text img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .info__text {
+        display: flex;
+        padding-right: 25px;
+        align-items: center;
+        
+    }
+    
+    .info__text p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 6px;
+        margin-top: 11px;
+    }
+    
+    .watch__cinema_text {
+        font-style: normal;
+        font-weight: normal;
+        margin: 0;
+        padding-top: 19px;
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+    
+    .watch__cinema__info {
+        display: flex;
+    }
+    
+    
+    .main__content {
+        display: flex;
+    }
+    
+    .main__title {
+        width: 55%;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    
+    .main__title h1 {
+        font-family: "Roboto Slab";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 47px;
+    }
+    
+    .main__image {
+        
+        padding-left: 57px;
+    }
+
+    .main__image img {
+        width: 176px;
+        height: 206px;
+    }
+
+    .phrase {
+        background-color: #1E4681;
+        width: 280px;
+        box-sizing: border-box;
+        margin-top: 43px;
+        margin-left: 168px;
+    }
+    
+    .phrase__text {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0px;
+        padding: 10px 27px 1px 14px;
+    }
+    
+    .phrase__name {
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 1px;
+        padding-right: 10px;
+        padding-bottom: 14px;
+        margin: 0px;
+    }
+
+    .about-course .container{
+        box-sizing: border-box;
+        max-width: 834px;
+        min-width: 375px;
+        margin: 0 auto;
+        padding-top: 101px;
+        /* background-color: tomato; */
+        padding-left: 71px;
+        padding-right: 150px;
+    }
+    
+    .about-course h1{
+        font-family: "Roboto Slab";
+        font-size: 32px;
+        line-height: 32px;
+        margin-top: 0;
+        padding-bottom: 1px;
+        margin-bottom: 16px;
+    }
+
+    .about-course .content{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    
+    .about-course .text{
+        width: 62%;
+        line-height: 21px;
+        padding-top: 1px;
+        padding-right: 0px;
+    }
+
+    .paragraph__two {
+        margin: 0;
+        padding-top: 7px;
+    }
+    
+    .about-course .image-first{
+       width: 17%;
+       height: 207px;
+        padding-top: 1px;
+    }
+
+    .image-first img {
+        width: 212px;
+        height: 207px;
+        padding-top: 23px;
+    }
+
+    .about-course .bottom{
+        margin-top: 41px;
+        display: flex;
+        align-items: center;
+    }
+
+    .about-course .menu{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .about-course .item{
+        width: 23%;
+        padding-right: 27px;
+    }
+
+    .about-course .image-second{
+        padding-top: 0px;
+        padding-right: 56px;
+    }
+
+    .image-second img {
+        width: 134px;
+    }
+
+    .about-course h2{
+        margin-top: 4px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .item p {
+        margin: 0;
+        padding-top: 1px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .format__title {
+        padding-top: 90px;
+        padding-bottom: 70px;
+        
+    }
+    
+    .format__title h1 {
+        font-size: 32px;
+        line-height: 32px;
+        margin: 0;
+    }
+    
+    .format__content{
+        padding-right: 0;
+    }
+    
+    .format__info {
+        display: flex;
+        width: 100%;
+    }
+    
+    .format__container1 {
+        width: 18%;
+        padding-right: 63px;
+    }
+    
+    .format__container2 {
+        width: 21%;
+        padding-right: 62px;
+    }
+    
+    .format__container3 {
+        
+        width: 20%;
+    }
+
+    .format__title__text {
+        font-size: 15px;
+        line-height: 19px;
+        color: #1E4681;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .format__text {
+        font-size: 11px;
+        line-height: 14px;
+        margin: 0;
+        padding-top: 4px;
+    }
+    
+
+    .learn__title h1 {
+        font-size: 32px;
+        line-height: 32px;  
+        padding-top: 124px;
+        margin: 0;
+    }
+    
+    .learn__info {
+       width: 51%;
+        padding-top: 34px;
+    }
+    
+    .learn__list {
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .learn__list li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+
+    .section-programm .course-program {
+        margin-top: 129px;
+        margin-bottom: 75px;
+        padding-left: 0px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+    .section-programm {
+        max-width: 834px;
+        margin:auto;
+        padding-left: 59px;
+    }
+
+    .section-programm .container{
+        box-sizing: border-box;
+        padding-left: 41px;
+        padding-bottom: 30px;
+    }
+    
+        .programm-content {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -23px;
+        }
+        
+        .card {
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+            border-radius: 17px;
+            margin-bottom: 23px;
+            width: 231px;
+            margin-right: 22px;
+            height: 192px;
+        }
+
+        .card img {
+            width: 231px;
+        }
+        
+        .card:hover {
+            box-shadow: 5px 5px 5px rgba(25, 22, 235, 0.25);
+            border: 2px solid rgb(70, 21, 187);
+            cursor: pointer;
+        }
+        
+        .card__title {
+            font-size: 17px;
+            line-height: 22px;
+            margin: 0;
+            padding-top: 3px;
+            padding-bottom: 20px;
+            padding-left: 12px;
+        }
+        
+        .card__text {
+            font-size: 14px;
+            line-height: 18px;
+            margin: 0;
+            padding-bottom: 0px;
+            padding-left: 12px;
+        }
+        
+        .card__title__seminar{
+            font-size: 17px;
+            line-height: 16px;
+            margin: 0;
+            padding-top: 6px;
+            padding-bottom: 5px;
+            padding-left: 12px;
+            
+        }
+
+        .card__text__seminar {
+            font-size: 14px;
+            line-height: 18px;
+            margin: 0;
+            margin: 0;
+            padding-top: 3px;
+            padding-left: 12px;
+            padding-bottom: 0px;
+        }
+    
+
+        .passed {
+            box-sizing: border-box;
+            background-color: #EFEFEF;
+            height:451px;
+            }
+            
+            .passed .author{
+                display: flex;
+                justify-content: flex-start;
+            }
+            
+            .passed .rewiew{
+                box-sizing: border-box;
+                background-color: white;
+                width: 462px;
+                height: 261px;
+                padding: 3px 51px 12px 26px;
+                margin-top: 41px;
+                box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.25);
+                border-radius: 17px;
+            }
+            
+            .passed .prewiew {
+                font-size: 12px;
+                line-height: 18px;
+                padding-top: 8px;
+                padding-left: 3px;
+            }
+            
+            .passed h1{
+                font-size: 32px;
+                line-height: 32px;
+                margin-top: 8px;
+            }
+            
+            .passed .name-contact p{
+                font-size: 17px;
+                line-height: 17px;
+                margin-bottom: 18px;
+            }
+            
+            .passed .name-contact{
+                padding-left: 18px;
+                padding-top: 10px;
+            }
+
+            .passed .picture-author{
+                padding-top: 3px;
+                margin-left: -8px;
+            }
+
+            .picture-author img {
+                width:110px;
+            }
+
+            .passed .picture-fb{
+                padding-bottom: 5px;
+            }
+
+            .fb {
+                width:18px;
+            }
+
+            .passed .container{
+                padding-top: 44px;
+            }
+            
+
+
+            
+.start-course{
+    box-sizing: border-box;
+    background-color: #9DC9C8;
+    height: 453px;
+    padding-left: 0;
+}
+
+.start-course h1{
+    padding-top: 5px;
+    font-size: 32px;
+    line-height: 32px;
+
+
+
+}
+
+.start-course .container{
+    /* margin: 0 auto; */
+    padding: 72px 319px 185px 70px;
+}
+
+.start-course .price-number{
+    font-size: 80px;
+    padding-bottom: 0px;
+    margin: 0;
+    line-height: 85px;
+    font-size: 46px;
+line-height: 47px;
+}
+
+.start-course .subtitle-one {
+    font-size: 25px;
+    margin-top: 38px;
+    margin-bottom: 2px;
+    font-size: 14px;
+line-height: 14px;
+}
+
+.start-course .subtitle-two {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.start-course .pdesc{
+    font-size: 18px;
+    margin-top: 9px;
+    line-height: 18px;
+    font-size: 10px;
+line-height: 10px;
+}
+
+.start-course .description{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 14px;
+}
+
+.start-course .description-one{
+    box-sizing: border-box;
+    width: 211px;
+    margin-right: 0px;
+    padding-right: 37px;
+}
+
+.start-course .description-two{
+    box-sizing: border-box;
+    width: 170px;
+}
+
+.footer{
+    height: 226px;
+}
+
+.footer .container{
+    padding: 27px 107px 23px 71px;
+}
+
+.footer .block-contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 66px;
+}
+
+.footer .icon-contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .icon{
+    margin-right: 11px;
+    margin-top: 13px;
+}
+
+.icon img {
+    width: 19px;
+}
+
+.footer .black-block{
+    box-sizing: border-box;
+}
+
+.footer .mini-logo{
+    padding-top: 79px;
+    font-size: 10px;
+}
+
+.footer .right-side{
+    font-size: 14px;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.footer .phone-number{
+    display: flex;
+}
+
+.footer .e-mail{
+    display: flex;
+    padding-top: 6px;
+}
+
+.footer .icon-phone {
+    margin-right: 13px;
+}
+
+.icon-phone img {
+    width: 15px;
+    padding-left: 10px;
+}
+
+.footer .icon-mail{
+    margin-right: 10px;
+    padding-left: 0px;
+}
+
+.icon-mail img {
+    width: 15px;
+    padding-left: 10px;
+}
 
 }
 
@@ -725,16 +1303,11 @@ padding-right: 9px;
 }
 .learn__list{
     padding: 0px 0px 0px 13px; 
-    /* list-style-position: inside; */
 }
 .learn__list li{
     font-size: 12px;
     line-height: 18px;
     margin-left: -4px;
-    /* list-style-position: inside; */
-}
-.learn__list ul{
-    /* list-style-position: inside; */
 }
 .section-programm .course-program {
     font-size: 26px;
@@ -744,7 +1317,7 @@ padding-right: 9px;
     margin-bottom: 54px;
 }
 .section-programm .container{
-    margin-left: -57px;
+    /* margin-left: -57px; */
     padding-left: 0px;
 }
 .card{
@@ -798,15 +1371,11 @@ padding-right: 9px;
     padding-right: 90px;
 }
 .passed{
-    width: 375px;
     height: 423px;
-    margin-left: -8px;
-    margin-top: -71px;
 }
 .passed .container{
     padding-left: 0px;
     padding-top: 35px;
-    margin-left: 34px;
     margin-top: 7px;
 }
 .passed .rewiew{
@@ -881,31 +1450,22 @@ padding-right: 9px;
     width: 140px;
 }
 .start-course .pdesc{
-    /* width: 138px; */
     font-size: 10px;
     line-height: 10px;
     padding-right: 0px;
     margin-top: 7px;
 }
 .start-course{
-    /* box-sizing: border-box; */
-    width: 375px;
     height: 363px;
-    margin-left: -8px;
-    margin-top: -71px;
 }
 .start-course .container{
     padding-left: 0px;
     padding-top: 35px;
     padding-right: 52px;
     padding-bottom: 0px;
-    margin-left: 34px;
-    margin-top: 71px;
 }
 .footer{
     height: 251px;
-    width: 375px;
-    margin-left: -8px;
 }
 .footer .container{
     padding: 24px 0px 0px 38px;
