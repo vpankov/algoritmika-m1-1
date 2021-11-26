@@ -20,10 +20,7 @@ h1 {
     font-weight: bold;
     font-size: 55px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 29766716b7dd2019eb7f456b0dcea25da5365251
 .watch__cinema h1 {
     font-family: "Roboto Slab";
     font-style: normal;
@@ -546,7 +543,7 @@ height: 780px;
 
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
- 
+  
     .container{
         box-sizing: border-box;
         width: 834px;
@@ -818,7 +815,6 @@ height: 780px;
         font-size: 14px;
         line-height: 21px;
     }
-
 
     .section-programm .course-program {
         margin-top: 129px;
@@ -1133,16 +1129,19 @@ line-height: 10px;
     line-height: 39px;
     margin: 0;
 }
+
 .main__title{
     padding: 0;
     margin-right: 0;
 }
+
 .main__content{
     display: block;
 }
+
 .watch__cinema_text {
     font-size: 10px;
-    padding-top: 16px;
+    padding-top: 13px;
     line-height: 15px;
 }
 
@@ -1151,77 +1150,97 @@ line-height: 10px;
         padding-bottom: 30px;
         box-sizing: border-box;
     }
+
     .logotip img{
         width: 52px;
     }
+
     .watch__cinema .info__text img {
         width: 10px;
     }
+
     .info__text{
-        padding-right: 10px;
+        padding-right: 15px;
     }
+
     .info__text p{
         font-size: 10px;
-    }
+        padding-left: 4px;
+}
+
     .main__image img{
         width: 141px;
     }
+
     .main__image{
         padding-left: 167px;
     }
+
 .phrase{
     width: 225px;
     margin: 32px 0px 0px 3px;
 }
+
 .phrase__text{
     font-size: 11px;
     line-height: 14px;
-    padding: 9px 12px 0px 12px;
+    padding: 10px 16px 0px 12px;
 }
+
 .phrase__name{
     font-size: 10px;
     line-height: 13px;
-    padding: 5px 7px 11px 19px;
+    padding: 3px 7px 11px 19px;
 
 }
+
 .about-course .container{
-    padding: 70px 8px 0px 28px;
+    padding: 72px 8px 0px 28px;
 }
+
 .about-course h1{
     font-size: 26px;
 }
+
 .about-course .content{
     display: block;
     
 }
+
 .about-course .content .text{
     font-size: 12px;
     line-height: 18px;
     padding: 0px 0px 0px 0px;
     width: 100%;
 }
+
 .about-course .image-first img{
     width: 170px;
     padding-top: 0px;
     padding-left: 66px;
 }
+
 .about-course .image-first{
-    padding-top: 15px;
+    padding-top: 14px;
     padding-left: 0px;
     margin-bottom: -109px;
 }
+
 .about-course .paragraph__one{
 padding-right: 9px;
 }
+
 .about-course .paragraph__two{
     padding-top: 6px;
     padding-right: 20px;
     
 }
+
 .about-course .image-second {
     display: none;
     position: relative;
 }
+
 .about-course .bottom{
     width: 70%;
     margin: 0px 0px 0px 0px;
@@ -1232,11 +1251,13 @@ padding-right: 9px;
     justify-content: flex-start;
     flex-wrap: wrap; 
 } 
+
 .about-course h2{
     font-size: 12px;
     line-height: 15px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
 }
+
 .about-course .menu p{
     font-size: 10px;
     line-height: 13px;
@@ -1244,71 +1265,95 @@ padding-right: 9px;
     
 
 }
+
 .about-course .menu .item{
     width: 82px;
     padding-right: 37px;
 }
+
 .format__title h1{
     font-size: 26px;
 }
+
 .format__title {
-    padding-top: 37px;
+    padding-top: 36px;
     padding-bottom: 0px;
 }
+
 .format__info {
     display: block;
     width: 100%;
 }
+
 .format__title__text{
     font-size: 12px;
     line-height: 15px;
 }
+
 .format__text{
     font-size: 10px;
     line-height: 13px;
-    padding-top: 5px;
+    padding-top: 3px;
 }
+
 .format__container1 {
     width: 150%;
     padding-right: 0px;
 }
+
 .format__container2 {
     width: 135%;
     padding-right: 0px;
     margin-top: 32px;
 }
+
 .format__container3 {
     width: 150%;
     padding-right: 0px;
     margin-top: 32px;
     padding-left: 1px;
 }
+
 .format__content{
-    margin-top: 30px;
+    margin-top: 31px;
 }
+
 .section-learn .container{
     padding-right: 5px;
 }
+
 .learn__title{
-    margin-top: 67px;
+    margin-top: 69px;
 }
+
 .learn__title h1{
     font-size: 26px;
     line-height: 26px;
     padding: 10px 10px 0px 0px;
 }
+
 .learn__info{
     width: 90%;
     padding-top: 28px;
 }
+
 .learn__list{
     padding: 0px 0px 0px 13px; 
 }
+
 .learn__list li{
     font-size: 12px;
     line-height: 18px;
     margin-left: -4px;
 }
+
+.section-programm {
+    max-width: 375px;
+    min-width: 320px;
+    margin: auto;
+    padding-left: 26px;
+}
+
 .section-programm .course-program {
     font-size: 26px;
     line-height: 26px;
@@ -1316,10 +1361,13 @@ padding-right: 9px;
     margin-top: 50px;
     margin-bottom: 54px;
 }
+
 .section-programm .container{
     /* margin-left: -57px; */
     padding-left: 0px;
+    padding-bottom: 16px;
 }
+
 .card{
     box-sizing: content-box;
     width: 186px;
@@ -1331,6 +1379,7 @@ padding-right: 9px;
     margin-right: 6px;
 
 }
+
 .card__title{
     font-size: 14px;
     line-height: 18px;
@@ -1338,12 +1387,14 @@ padding-right: 9px;
     padding-left: 10px;
     padding-bottom: 15px;
 }
+
 .card__text{
     font-size: 12px;
     line-height: 16px;
     padding-top: 0px;
     padding-left: 9px;
 }
+
 .card__title__seminar{
     font-size: 14px;
     line-height: 15px;
@@ -1351,6 +1402,7 @@ padding-right: 9px;
     padding-left: 10px;
     padding-bottom: 3px;
 }
+
 .card__text__seminar{
     font-size: 12px;
     line-height: 15px;
@@ -1361,55 +1413,72 @@ padding-right: 9px;
 .card img{
     width: 100%;
 }
+
 .programm-content{
     padding-left: 61px;
 }
+
 .passed h1{
     font-size: 26px;
     line-height: 26px;
     padding-top: 0px;
+    padding-left: 27px;
     padding-right: 90px;
+    margin-top: 6px;
 }
+
 .passed{
     height: 423px;
 }
+
 .passed .container{
     padding-left: 0px;
     padding-top: 35px;
     margin-top: 7px;
 }
+
 .passed .rewiew{
     width: 308px;
     height: 248px;
     margin-top: 28px;
     border-radius: 15px;
-    padding: 9px 23px 0px 22px;
+    padding: 8px 27px 0px 20px;
+    margin-left: 28px;
 }
+
 .passed .prewiew{
     font-size: 10px;
     line-height: 15px;
     padding: 0px 0px 0px 0px;
 }
+
 .passed .picture-author{
     padding: 5px 0px 0px 12px;
+    margin-left: -19px;
 }
+
 .passed .picture-author img{
     width: 93px;
 }
+
 .passed .name-contact p{
     font-size: 14px;
     line-height: 14px;
+    margin-bottom: 17px;
 }
+
 .passed .name-contact{
     padding-left: 8px;
-    padding-top: 8px;
+    padding-top: 7px;
 }
+
 .passed .pcture-fb img{
     width: 15px;
-    height: 17px;
+    height: 18px;
 }
+
 .passed .pcture-fb{
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 .start-course h1{
@@ -1417,94 +1486,123 @@ padding-right: 9px;
     line-height: 27px;
     padding-right: 100px;
 }
+
 .start-course .subtitle-one {
     font-size: 12px;
     line-height: 12px;
-    margin-top: 33px;
+    margin-top: 30px;
     margin-bottom: 3px;
 }
+
 .start-course .subtitle-two {
     font-size: 12px;
     line-height: 12px;
 }
+
 .start-course .price-number{
     font-size: 37px;
     line-height: 37px;
 }
+
 .start-course .description{
     margin-top: -22px;
     padding-right: 20px;
 }
+
 .start-course .description-one{
     width: auto;
     padding-right: 0px;
     margin-right: 31px;
 }
+
 .start-course .description-two{
     width: auto;
 }
+
 .start-course .description-one .pdesc{
     width: 138px;
 }
+
 .start-course .description-two .pdesc{
     width: 140px;
 }
+
 .start-course .pdesc{
     font-size: 10px;
     line-height: 10px;
     padding-right: 0px;
     margin-top: 7px;
 }
+
 .start-course{
     height: 363px;
 }
+
 .start-course .container{
-    padding-left: 0px;
-    padding-top: 35px;
-    padding-right: 52px;
+    padding-left: 26px;
+    padding-top: 36px;
+    padding-right: 37px;
     padding-bottom: 0px;
 }
+
 .footer{
     height: 251px;
 }
+
 .footer .container{
-    padding: 24px 0px 0px 38px;
+    padding: 22px 0px 0px 30px;
 }
+
 .footer .block-contacts{
     display: block;
 }
+
 .footer .logo img{
     width: 53px;
 }
+
 .footer .icon-contacts{
     justify-content: flex-start;
 }
+
 .footer .icon{
     margin-right: 9px;
     margin-top: 10px;
 }
+
 .footer .icon img {
     width: 15px;
 }
+
 .footer .icon-phone img{
     width: 12px;
 }
+
 .footer .icon-mail img{
     width: 12px;
 }
+
 .footer .right-side{
     font-size: 12px;
     line-height: 12px;
-    margin-top: 37px;
+    margin-top: 39px;
 }
+
 .footer .icon-phone {
     margin-right: 11px;
 }
+
+.footer .e-mail {
+    padding-top: 7px;
+}
+
 .footer .icon-mail {
     margin-right: 9px;
 }
+
 .footer .mini-logo{
     font-size: 10px;
-    padding-top: 53px;
+    padding-top: 54px;
 }
+ 
 }
