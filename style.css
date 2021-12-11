@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body {
+    margin: 0;
+}
+
 .wrapper {
     font-family: "Roboto", sans-serif;
     color: black;
@@ -39,7 +43,7 @@ h1 {
 
 
 .logotip {
-    padding-top: 13px;
+    padding-top: 21px;
     padding-bottom: 75px;
     box-sizing: border-box;
 }
@@ -112,19 +116,18 @@ h1 {
     text-align: right;
     line-height: 26px;
     color: rgb(255, 255, 255);
-    padding-top: 1px;
+    padding-top: 6px;
     padding-right: 18px;
-    padding-bottom: 19px;
+    padding-bottom: 17px;
     margin: 0px;
 }
 
 .about-course .container{
     box-sizing: border-box;
     max-width: 1440px;
-    min-width: 375px;
     margin: 0 auto;
     padding-top: 165px;
-    /* background-color: tomato; */
+   
     padding-left: 122px;
     padding-right: 150px;
 }
@@ -199,7 +202,7 @@ h1 {
 
 
 .format__title {
-    padding-top: 149px;
+    padding-top: 155px;
     padding-bottom: 114px
 }
 
@@ -265,7 +268,7 @@ h1 {
 
 .learn__info {
    width: 51%;
-    padding-top: 50px;
+    padding-top: 54px;
 }
 
 .learn__list {
@@ -280,19 +283,19 @@ h1 {
 }
 
 .section-programm .course-program {
-    margin-top: 217px;
+    margin-top: 221px;
     margin-bottom: 121px;
-    padding-left: 39px;
+    padding-left: 121px;
 }
 
 .section-programm {
     max-width: 1440px;
     margin:auto;
-    padding-left: 84px;
 }
+
 .section-programm .container{
     box-sizing: border-box;
-    padding-left: 41px;
+    padding-left: 0;
     padding-bottom: 85px;
 }
 
@@ -300,6 +303,8 @@ h1 {
     .programm-content {
         display: flex;
         flex-wrap: wrap;
+        width: 1271px;
+        margin: 0 auto;
     }
     
     .card {
@@ -309,12 +314,17 @@ h1 {
         width: 399px;
         margin-right: 37px;
         height: 328px;
+        transition-duration: 0.3s;
+    }
+    .card:nth-child(3n) {
+        margin-right: 0;
     }
     
     .card:hover {
         box-shadow: 10px 10px 20px rgba(25, 22, 235, 0.25);
-        border: 3px solid rgb(70, 21, 187);
+        outline: 3px solid rgb(70, 21, 187);
         cursor: pointer;
+        transform: scale(1.1);
     }
     
     .card__title {
@@ -413,9 +423,10 @@ height: 780px;
 .passed .picture-fb{
     padding-bottom: 5px;
 }
-.passed .picture-fb img{
-    width: 32px;
+.passed .picture-fb .icon {
+    transition-duration: 3s;
 }
+
 .passed .container{
     padding-top: 73px;
 }
@@ -432,7 +443,6 @@ height: 780px;
 }
 
 .start-course .container{
-    /* margin: 0 auto; */
     padding: 119px 410px 185px 122px;
 }
 
@@ -501,7 +511,15 @@ height: 780px;
 .footer .icon{
     margin-right: 20px;
     margin-top: 27px;
+    transition-duration: 0.2s;
 }
+
+.icon:hover {
+    outline: 0px solid rgb(200, 194, 214);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .footer .black-block{
     box-sizing: border-box;
 }
@@ -524,6 +542,10 @@ height: 780px;
 .footer .e-mail{
     display: flex;
     padding-top: 10px;
+}
+.link {
+    color: white;
+    text-decoration: none;
 }
 
 .footer .icon-phone {
@@ -552,7 +574,7 @@ height: 780px;
     }
 
     .logotip {
-        padding-top: 14px;
+        padding-top: 22px;
         padding-bottom: 43px;
     }
 
@@ -657,7 +679,6 @@ height: 780px;
         min-width: 375px;
         margin: 0 auto;
         padding-top: 101px;
-        /* background-color: tomato; */
         padding-left: 71px;
         padding-right: 150px;
     }
@@ -819,7 +840,7 @@ height: 780px;
     .section-programm .course-program {
         margin-top: 129px;
         margin-bottom: 75px;
-        padding-left: 0px;
+        padding-left: 70px;
         font-size: 32px;
         line-height: 32px;
     }
@@ -827,19 +848,17 @@ height: 780px;
     .section-programm {
         max-width: 834px;
         margin:auto;
-        padding-left: 59px;
     }
 
     .section-programm .container{
         box-sizing: border-box;
-        padding-left: 41px;
         padding-bottom: 30px;
     }
     
         .programm-content {
             display: flex;
             flex-wrap: wrap;
-            margin-left: -23px;
+            width: 737px;
         }
         
         .card {
@@ -986,7 +1005,6 @@ height: 780px;
 }
 
 .start-course .container{
-    /* margin: 0 auto; */
     padding: 72px 319px 185px 70px;
 }
 
@@ -1120,8 +1138,9 @@ line-height: 10px;
 @media screen and (min-width: 320px) and (max-width: 991px) {
 
 .container{
-    padding-left: 27px;
-    width: 375px;
+    padding-left: 34px;
+    width: 320px;
+    background-color: blue;
 }
 
 .watch__cinema h1 {
@@ -1146,7 +1165,7 @@ line-height: 10px;
 }
 
 .watch__cinema .logotip  {
-        padding-top: 28px;
+        padding-top: 34px;
         padding-bottom: 30px;
         box-sizing: border-box;
     }
@@ -1178,13 +1197,13 @@ line-height: 10px;
 
 .phrase{
     width: 225px;
-    margin: 32px 0px 0px 3px;
+    margin: 35px 0px 0px 4px;
 }
 
 .phrase__text{
     font-size: 11px;
     line-height: 14px;
-    padding: 10px 16px 0px 12px;
+    padding: 9px 16px 0px 12px;
 }
 
 .phrase__name{
@@ -1195,7 +1214,9 @@ line-height: 10px;
 }
 
 .about-course .container{
-    padding: 72px 8px 0px 28px;
+    padding: 71px 24px 0px 36px;
+    width: 320px;
+    background-color: crimson;
 }
 
 .about-course h1{
@@ -1242,7 +1263,7 @@ padding-right: 9px;
 }
 
 .about-course .bottom{
-    width: 70%;
+    width: 80%;
     margin: 0px 0px 0px 0px;
 }
 
@@ -1267,8 +1288,8 @@ padding-right: 9px;
 }
 
 .about-course .menu .item{
-    width: 82px;
-    padding-right: 37px;
+    width: 81px;
+    padding-right: 38px;
 }
 
 .format__title h1{
@@ -1276,7 +1297,7 @@ padding-right: 9px;
 }
 
 .format__title {
-    padding-top: 36px;
+    padding-top: 37px;
     padding-bottom: 0px;
 }
 
@@ -1314,12 +1335,14 @@ padding-right: 9px;
     padding-left: 1px;
 }
 
-.format__content{
+.format__content {
     margin-top: 31px;
+    padding-right: 160px;
 }
 
 .section-learn .container{
     padding-right: 5px;
+    background-color: cyan;
 }
 
 .learn__title{
@@ -1348,10 +1371,10 @@ padding-right: 9px;
 }
 
 .section-programm {
-    max-width: 375px;
-    min-width: 320px;
+    width: 320px;
     margin: auto;
-    padding-left: 26px;
+    padding-left: 0px;
+    background-color: darkgoldenrod;
 }
 
 .section-programm .course-program {
@@ -1363,9 +1386,9 @@ padding-right: 9px;
 }
 
 .section-programm .container{
-    /* margin-left: -57px; */
     padding-left: 0px;
     padding-bottom: 16px;
+    background-color: darkgreen;
 }
 
 .card{
@@ -1416,25 +1439,28 @@ padding-right: 9px;
 
 .programm-content{
     padding-left: 61px;
+    width: 190px;
 }
 
 .passed h1{
     font-size: 26px;
     line-height: 26px;
     padding-top: 0px;
-    padding-left: 27px;
-    padding-right: 90px;
+    padding-left: 35px;
+    padding-right: 53px;
     margin-top: 6px;
 }
 
 .passed{
     height: 423px;
+    width: 320px;
 }
 
 .passed .container{
     padding-left: 0px;
     padding-top: 35px;
     margin-top: 7px;
+    background-color: darkmagenta;
 }
 
 .passed .rewiew{
@@ -1443,7 +1469,7 @@ padding-right: 9px;
     margin-top: 28px;
     border-radius: 15px;
     padding: 8px 27px 0px 20px;
-    margin-left: 28px;
+    margin-left: 36px;
 }
 
 .passed .prewiew{
@@ -1543,6 +1569,7 @@ padding-right: 9px;
     padding-top: 36px;
     padding-right: 37px;
     padding-bottom: 0px;
+    background-color: darkred;
 }
 
 .footer{
@@ -1551,6 +1578,7 @@ padding-right: 9px;
 
 .footer .container{
     padding: 22px 0px 0px 30px;
+    background-color: black;
 }
 
 .footer .block-contacts{
